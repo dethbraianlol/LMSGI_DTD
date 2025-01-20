@@ -1,0 +1,9 @@
+
+<!ELEMENT esdenivents (esdenivent+)>
+<!ELEMENT esdenivent (grup, lloc, data, entrada)>
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada (#PCDATA)>
+<!ATTLIST entrada gratuita (no | si) #REQUIRED>
+

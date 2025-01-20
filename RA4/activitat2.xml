@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "activitat2.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="s01">
+            <nom>Vin Disel</nom>
+            <edat>55</edat>
+        </actor>
+        <actor id="s02">
+            <nom>Tom Holland</nom>
+        </actor>
+        <actor id="s03">
+            <nom>George Clooney</nom>
+            <edat/>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="s001">
+            <titol idioma="angles">Full Metal Jacket</titol>
+            <director>Stanly Kubrik</director>
+            <any>1987</any>
+            <actors>
+                <actor_ref ref="s01"/>
+            </actors>
+        </pelicula>
+        <pelicula id="s002">
+            <titol idioma="angles">Kill bill</titol>
+            <director>Quentin Taratino</director>
+            <any>2003</any>
+            <actors>
+                <actor_ref ref="s02"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="s002"></recomanacio>
+    </llista_recomanacions_pelicules>
+</cataleg>
